@@ -73,10 +73,6 @@ adb shell am start -a android.intent.action.SENDTO -d sms:10086 --es sms_body ye
 
 ![](am.gif)
 
-### 下载包
-- ```adb install path_to_apk```
-![](img/adb_install.png)
-
 ### 软件包管理器 (pm)
 - ```pm list packages -3```查看第三方软件包
 - ```adb shell pm uninstall com.example.MyApp```卸载包
