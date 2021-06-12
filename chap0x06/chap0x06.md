@@ -48,7 +48,7 @@ cd
 
 ![](img/本地到设备.png)
 
-- ```adb install path_to_apk```安装应用
+- ```adb install path_to_apk```下载包
 
 ![](img/adb_install.png)
 
