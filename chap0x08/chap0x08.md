@@ -17,7 +17,7 @@
     - [x] Insecure Logging
     - [x] Android Application patching + Weak Auth
     - [x] Exploiting Android Broadcast Receivers
-    - [x]Exploiting Android Content Provider
+    - [x] Exploiting Android Content Provider
 - [ ] （可选）使用不同于Walkthroughs中提供的工具或方法达到相同的漏洞利用攻击效果；
     - 推荐 drozer
 
@@ -204,6 +204,7 @@ am broadcast -a theBroadcast -n com.android.insecurebankv2/com.android.insecureb
 ![](img/绕过登录直接修改密码2.png)
 
 - 回到模拟器中，打开Messages应用，发现上述输入的命令自动发送短信联系上述广播接收器，并发送带有密码的短信文本
+
 ![](img/绕过登录直接修改密码回复短信.png)
 
 ## Exploiting Android Content Provider
